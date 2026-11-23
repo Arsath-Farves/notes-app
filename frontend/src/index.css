@@ -1,0 +1,38 @@
+.note-card{
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+  max-width: 400px;
+  margin: 12px auto;
+  padding: 12px;
+  border: 1px solid #555;
+  border-radius: 8px;
+  position: relative;
+
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 400px;
+  margin: 16px auto;
+}
+
+
+
+button{
+  color: #111;
+  background: #e5e7eb;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+#logout-btn{
+  position: absolute;
+  top: 0;
+  right:0;
+ 
+}
