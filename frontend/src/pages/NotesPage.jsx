@@ -35,7 +35,7 @@ function NotesPage() {
     const updateNote = async (id,data) => {
         try {
         const res = await api.patch(`notes/${id}/`,data);
-        setNotes(notes.map((n) => (n,id === id ? {...n,...data}:n)))
+        setNotes(notes.map((n) => (n.id === id ? {...n,...data}:n)))
         } catch  {
             setError('Could not upadte note');
             
